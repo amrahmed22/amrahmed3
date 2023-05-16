@@ -1,0 +1,819 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+        color: #343434;
+    font-weight: 400;
+    overflow-y: hidden;
+}
+
+.home
+{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+}
+.logo
+{
+    float: left;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+#btn{
+position: fixed;
+right: 25px;
+bottom: 25px;
+display: none;
+z-index: 9999999999999999999;
+}
+nav{
+    transition: background-color 1.5s;
+}
+.nav-item
+{    
+    letter-spacing: 1px;
+    font-size: 14px !important;
+
+}
+.nav-item a
+{
+    padding: 0px !important;
+    margin: 0px 20px;
+
+}
+#loading
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999999999999999999999999999999999999999999999999999999;
+    
+
+}
+.spinner {
+    margin: 100px auto 0;
+    width: 70px;
+    text-align: center;
+  }
+  
+  .spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+  
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+  
+  .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+  
+  .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+  
+  @-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 40% { 
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+  }
+.header h1
+{
+    font-weight: bolder !important;
+    font-size: 55px;
+}
+.header p
+{
+    font-size: 60px !important;
+    font-weight: 400 !important;
+    line-height: 72px !important;
+    font-family: sans-serif !important;
+}
+.thin
+{
+    font-weight: lighter!important;
+    font-size: 60px !important;
+    line-height: 72px !important;
+    color: rgba(255, 255, 255, 0.7);
+
+
+}
+@media screen and (max-width: 600px) {
+    .header p ,.header .thin {
+        font-size: 50px !important;
+    }
+  }
+.header p::after{
+    content: " ";
+    animation: typing 7s linear 0s infinite alternate;
+}
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+    1% {
+        content: "|";
+    }
+    2% {
+        content: "F|";
+    }
+
+    3% {
+        content: "Fr|"
+    }
+
+    4% {
+        content: "Fre|"
+    }
+
+    5% {
+        content: "Free|"
+    }
+
+    6% {
+        content: "Freel|"
+    }
+
+    7% {
+        content: "Freela|"
+    }
+
+    8% {
+        content: "Freelan|"
+    }
+
+    10% {
+        content: "Freelanc|"
+    }
+
+    11% {
+        content: "Freelance|"
+    }
+
+    12% {
+        content: "Freelancer|"
+    }
+
+    13% {
+        content: "Freelancer.|"
+    }
+
+    15% {
+        content: "Freelancer|"
+    }
+
+    16% {
+        content: "Freelance|"
+    }
+
+    17% {
+        content: "Freelanc|"
+    }
+
+    19% {
+        content: "Freelan|"
+    }
+
+    20% {
+        content: "Freela|"
+    }
+
+    21% {
+        content: "Freel|"
+    }
+
+    22% {
+        content: "Free|"
+    }
+
+    23% {
+        content: "Fre|"
+    }
+
+    24% {
+        content: "Fr|"
+    }
+
+    25% {
+        content: "F|"
+    }
+
+    27% {
+        content: "|";
+    }
+
+    28% {
+        content: "D|";
+    }
+
+    29% {
+        content: "De|";
+    }
+
+    30% {
+        content: "Des|";
+    }
+
+    32% {
+        content: "Desi|";
+    }
+
+    33% {
+        content: "Desig|";
+    }
+
+    34% {
+        content: "Design|";
+    }
+
+    35% {
+        content: "Designe|";
+    }
+
+    36% {
+        content: "Designer|";
+    }
+
+    38% {
+        content: "Designer.|";
+    }
+
+    39% {
+        content: "Designer|";
+    }
+
+    41% {
+        content: "Designe|";
+    }
+
+    42% {
+        content: "Design|";
+    }
+
+    43% {
+        content: "Desig|";
+    }
+
+    44% {
+        content: "Desi|";
+    }
+
+    45% {
+        content: "Des|";
+    }
+
+    46% {
+        content: "De|";
+    }
+
+    47% {
+        content: "D|";
+    }
+
+    48% {
+        content: "|";
+    }
+
+    50% {
+        content: "L|";
+    }
+
+    51% {
+        content: "La|";
+    }
+
+    52% {
+        content: "Lar|";
+    }
+
+    53% {
+        content: "Larr|";
+    }
+
+    54% {
+        content: "Larry|";
+    }
+
+    56% {
+        content: "Larry |";
+    }
+
+    57% {
+        content: "Larry D|";
+    }
+
+    58% {
+        content: "Larry Da|";
+    }
+
+    59% {
+        content: "Larry Dan|";
+    }
+
+    61% {
+        content: "Larry Dani|";
+    }
+
+    62% {
+        content: "Larry Dania|";
+    }
+
+    63% {
+        content: "Larry Danial|";
+    }
+
+    64% {
+        content: "Larry Danials|";
+    }
+
+    65% {
+        content: "Larry Danial|";
+    }
+
+    66% {
+        content: "Larry Dania|";
+    }
+
+    67% {
+        content: "Larry Dani|";
+    }
+
+    68% {
+        content: "Larry Dan|";
+    }
+
+    70% {
+        content: "Larry Da|";
+    }
+
+    71% {
+        content: "Larry D|";
+    }
+
+    72% {
+        content: "Larry |";
+    }
+
+    73% {
+        content: "Larry|";
+    }
+
+    74% {
+        content: "Larr|";
+    }
+
+    75% {
+        content: "Lar|";
+    }
+
+    76% {
+        content: "La|";
+    }
+    77% {
+        content: "L|";
+    }
+    78% {
+        content: "|";
+    }
+    79% {
+        content: "D|";
+    }
+    80% {
+        content: "De|";
+    }
+    81% {
+        content: "Dev|";
+    }
+    82% {
+        content: "Deve|";
+    }
+    83% {
+        content: "Devel|";
+    }
+    84% {
+        content: "Develo|";
+    }
+    86% {
+        content: "Develop|";
+    }
+    87% {
+        content: "Develope|";
+    }
+    88% {
+        content: "Developer|";
+    }
+    89% {
+        content: "Developer.|";
+    }
+    91% {
+        content: "Developer|";
+    }
+    92% {
+        content: "Develope|";
+    }
+    93% {
+        content: "Develop|";
+    }
+    94% {
+        content: "Develo|";
+    }
+    95% {
+        content: "Devel|";
+    }
+    96% {
+        content: "Deve|";
+    }
+    97% {
+        content: "Dev|";
+    }
+    98% {
+        content: "De|";
+    }
+    99% {
+        content: "D|";
+    }
+    100% {
+        content: "|";
+    }
+ 
+}
+.icons a
+{
+    text-decoration: none;
+}
+
+.icons
+{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.icon
+{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.image img
+{
+    width: 100%;
+    position: relative;
+}
+.whitespace
+{
+    letter-spacing: 2px;
+}
+
+.progress
+{
+    height: 25px;
+    margin: 30px 0px;
+    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
+
+}
+.progress-bar
+{
+    border-radius: 5px;
+}
+.progress-bar span
+{
+    font-size: 15px;
+    padding-top: 2px;
+}
+.buttons .download , .buttons .contact
+{
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: 14px;
+    border: 1px solid #000;
+    transition: all 0.8s;
+    
+}
+.buttons .download
+{
+    background-color: #000;
+    color: #fff;
+}
+.buttons .download:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+.buttons .contact
+{
+    background-color: transparent;
+}
+.buttons .contact:hover
+{
+    background-color: #000;
+    color: #fff;
+}
+.icoona
+{
+    padding: 20px;
+    background-color: yellow;
+    font-size: 30px;
+    border-radius: 100%;
+    transition: all 0.5s;
+
+}
+
+
+.pragraphs
+{
+    font-size: 16px;
+}
+.item{
+    box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 10%);
+}
+.item:hover .icoona
+{
+    background-color: #000 !important;
+    color: #fff;
+    cursor: pointer;
+}
+.heading h2
+{
+    font-weight: 900;
+    font-size: 45px;
+}
+.image img
+{
+ width: 100%;
+}
+.image
+{
+    position: relative;
+}
+.layerr
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.7s;
+    border: 5px rgba(58, 57, 57, 0.1) solid;
+}
+
+.image:hover .layerr
+{
+    opacity: 0.9;
+}
+.icons .iii
+{
+    border: #000 1px solid;
+    transition: 0.5s;
+}
+
+.icons .iii:hover
+{
+    background-color: #fff !important;
+    color: #000 !important;
+    
+}
+.headings .nav-item a
+{
+    font-size: 16px;
+    font-weight: bold !important;
+    color: #000 !important;
+}
+.headings .active
+{
+    position: relative;
+}
+.headings .active::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.carousel-indicators button
+{
+    background-color: gray !important;
+    padding: 5px !important;
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 50% !important;
+    margin: 5px !important;
+}
+
+.carousel-item p
+{
+    font-size: 18px !important;
+}
+.carousel-item span
+{
+    font-size: 15px !important;
+}
+.nbs
+{
+    box-shadow: none;
+}
+
+.inputs
+{
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+.inputs::placeholder
+{
+    color:rgb(133, 133, 133);
+}
+.sub
+{
+    background-color: #000;
+    color: white;
+    padding: 8px 35px;
+    margin-left: 0px;
+    float: left;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 2px #000 solid;
+    transition: all 0.5s;
+}
+.sub:hover
+{
+    background-color: white;
+    color: #000;
+}
+.footer
+{
+    height: 100px;
+}
+
+.blog .card h4
+{
+    font-weight: 800 !important;
+    font-size:18px !important;
+    line-height: 1.6 !important;
+    margin: 12px 0px;
+}
+.blog .card span
+{
+    width: 25%;
+    padding: 4px;
+    border-bottom: 2px solid black;
+    font-size: 14px;
+    font-weight: 500 !important;
+}
+
+.blog .card span:hover ,.blog .card h4:hover ,.blog .card h6:hover
+{
+    cursor: pointer;
+}
+
+.blog .card img
+{
+    transition: all 0.5s;
+}
+.blog .card
+{
+    border:  none;
+    border-radius: 0px !important;
+    box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 40%);
+
+}
+.blog .card .sss
+{
+    overflow: hidden;
+}
+.blog .card img:hover{
+    transform: scale(1.1 ,1.1);
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.heading h2 
+{
+    padding: 5px !important;
+    width: auto;
+    margin: 10px 0px !important;
+    position: relative;
+    z-index: 1;
+    }
+
+.heading h2::after
+{
+    content: "";
+    position:absolute;
+    height: 30px;
+    width:100%;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/dots.png);
+    z-index:-1;
+}
+
+.imageDotted 
+{
+    position: relative;
+    z-index: 1;
+}
+.imageDotted::after
+{
+    content: "";
+    position:absolute;
+    width:70%;
+    height: 70%;
+    background-image: url(../img/dots.png);
+    left:0;
+    bottom:-5px;
+    z-index: -1;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .imageDotted::after {
+    bottom:0px;
+        
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .imageDotted::after {
+        bottom:-5px;
+      
+    }
+
+  }
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .imageDotted::after {
+        bottom:85px;
+
+    }
+  }
+  @media screen and (max-width: 992px)
+  {
+    .xxx
+    {
+        background-color: #000 !important;
+        text-align: center !important;
+        margin-top: 5px !important;
+    }
+    .xxx .nav-item
+    {
+    margin: 8px !important;
+    }
+  }
+  
+ .cont 
+ {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    
+ }
+ .cont li button ,.cont .active
+  {
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: #000 2px solid;
+    border-radius: 0px;
+    padding: 0px !important;
+    margin:0px 15px;
+
+ }
